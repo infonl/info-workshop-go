@@ -8,5 +8,5 @@ func GetHelloWorld() string {
 	return Text
 }
 func PrintHelloWorld() {
-	fmt.Print("Hello World!")
+	fmt.Println("Hello World!")
 }
