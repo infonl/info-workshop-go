@@ -15,8 +15,8 @@ func Swap[T Number](numbers []T, i int, j int) {
 func BubbleSort[T Number](numbers []T) {
 	for i := 0; i < len(numbers)-1; i++ {
 		for j := 0; j < len(numbers)-1; j++ {
-			if numbers[i] > numbers[i+1] {
-				Swap(numbers, i, i+1)
+			if numbers[j] > numbers[j+1] {
+				Swap(numbers, j, j+1)
 			}
 		}
 	}
