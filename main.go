@@ -1,7 +1,7 @@
 package main
 
-import helloWorld "info-workshop-go/hello-world"
+import simpleServer "info-workshop-go/simple-server"
 
 func main() {
-	helloWorld.PrintHelloWorld()
+	simpleServer.Server()
 }
