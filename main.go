@@ -1,7 +1,17 @@
 package main
 
-import helloWorld "info-workshop-go/hello-world"
+import (
+	"fmt"
+	bubbleSort "info-workshop-go/bubble-sort"
+)
 
 func main() {
-	helloWorld.PrintHelloWorld()
+
+	slice := bubbleSort.GenerateSlice(10)
+
+	fmt.Println("\n--- Unsorted --- \n\n", slice)
+	bubbleSort.BubbleSort(slice)
+
+	fmt.Println("\n--- Sorted ---\n\n", slice, "\n")
+
 }
